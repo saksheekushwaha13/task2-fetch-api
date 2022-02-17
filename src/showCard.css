@@ -1,0 +1,35 @@
+.card {
+  
+  transition: 0.3s;
+  width: 19%;
+  margin: 2%;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #292b2c;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform : scale(1.1)
+}
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.card .container{
+    padding: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card{
+     width: 50%;
+  }
+}
+
